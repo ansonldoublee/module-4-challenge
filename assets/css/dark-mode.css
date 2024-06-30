@@ -1,0 +1,17 @@
+/* Dark mode CSS styles */
+body.dark-mode {
+    background-color: #191a1a;
+    color: #fff;
+}
+
+/* Dark mode navbar styles */
+.navbar-dark .navbar-brand,
+.navbar-dark .navigation-buttons .btn {
+    color: #fff;
+    background-color: transparent; /* Change text color for dark mode */
+    border-color: transparent;
+}
+
+.navbar-dark {
+    background-color: transparent; /* Change navbar background color for dark mode */
+}
